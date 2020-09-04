@@ -1,7 +1,7 @@
 provider "aws" {
   region = "eu-west-2"
-  access_key = "${var.access_key}"
-  secret_key = "${var.secret_key}"
+  access_key = "AKIA6RDQW5NPBIEFW7I2"
+  secret_key = "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"
 }
 
 data "aws_ami" "ubuntu" {
